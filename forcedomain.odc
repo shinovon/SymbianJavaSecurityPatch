@@ -1,2 +1,10 @@
+[container]
+name=forcedomain.jar
+type=JAR
+
+[packages]
+com/nokia/mj/impl/security/midp/authentication
+com/nokia/mj/impl/installer/midp2/install/steps
+
 [properties]
 -Dforcedomain=MFD

@@ -5,7 +5,7 @@ Removes security prompts (1.0-1.4)<br>
 - 1.0 (Symbian 9.3)
 - 1.4 (Symbian 9.4)
 - 2.1.18 (Beta update for Symbian 9.4)
-- 2.2+ (Symbian^3/Anna/Belle/Belle FP)
+- 2.2+ (Symbian Anna/Belle/Belle FP)
 
 ## Tested on:
 - Nokia N96 (1.0.2 / Symbian 9.3)

@@ -1,0 +1,17 @@
+; Languages
+&EN
+
+; Package header
+#{"Java Installer Patch"}, (0xE3D16777), 1, 0, 2, TYPE=SA
+
+; Dependencies
+[0x20022E6D], 0, 0, 0, {"Symbian^3 devices"}
+
+; Vendor names
+%{"nnproject"}
+:"nnproject"
+
+"forcedomain.jar"-"c:\resource\java\jvm\lib\jrt\forcedomain.jar"
+"..\..\forcedomain.odc"-"c:\resource\java\jvm\lib\jrt\forcedomain.odc"
+"$(EPOCROOT)epoc32\release\$(PLATFORM)\$(TARGET)\javainstpatch.exe"-"c:\sys\bin\javainstpatch.exe", FR, RI
+

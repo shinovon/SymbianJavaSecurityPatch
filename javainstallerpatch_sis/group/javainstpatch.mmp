@@ -1,0 +1,22 @@
+TARGETTYPE exe
+TARGET javainstpatch.exe
+
+UID	0x100039CE 0xE3D16777
+
+EPOCSTACKSIZE 0x10000
+EPOCHEAPSIZE 0x20000 0x2000000
+
+LIBRARY	euser.lib
+LIBRARY efsrv.lib
+LIBRARY bafl.lib
+LIBRARY aknnotify.lib
+
+CAPABILITY all -tcb
+
+SYSTEMINCLUDE /epoc32/include
+SYSTEMINCLUDE /epoc32/include/mw
+SYSTEMINCLUDE /epoc32/include/platform/mw
+SYSTEMINCLUDE /epoc32/include/platform
+
+SOURCEPATH ../src
+SOURCE installer.cpp
